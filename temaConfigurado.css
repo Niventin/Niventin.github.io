@@ -10,13 +10,40 @@
     --TB-position-right: var(--window-padding);
 }
 
-
+/* ---- Main Background ---- */
+#app-mount::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(
+        90deg,
+        #3e3f65 0%,
+        #3e3f65 50%,
+        #3e3f65 100%
+    );
+    height: calc(100vh + (var(--background-image-blur) * 2));
+    width: calc(100vw + (var(--background-image-blur) * 2));
+}
+#app-mount .layers-3iHuyZ,
+#app-mount .layerContainer-yqaFcK {
+    overflow: hidden;
+    margin: var(--window-padding);
+    border-radius: var(--window-roundness);
+}
+#app-mount .layer-3QrUeG.baseLayer-35bLyl {
+    background-color: var(--background-tertiary);
+}
+#app-mount,
+body,
+.app-2rEoOp,
+.bg-h5JY_x {
+    background-color: transparent;
+}
 
 /* ------------------------------------------------------------ 🌱 WINDOWS BUTTONS ------------------------------------------------------------ */
 
 /* ---- Sizes and Locations ---- */
 .platform-win .scroller-2TZvBN {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .platform-win .typeWindows-1za-n7 {
     height: 10px;
