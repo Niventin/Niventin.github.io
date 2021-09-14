@@ -17,8 +17,8 @@
     background: linear-gradient(
         90deg,
         #3e3f65 0%,
-        #7577c9 50%,
-        #8285e0 100%
+        #323352 50%,
+        #23243a 100%
     );
     height: calc(100vh + (var(--background-image-blur) * 2));
     width: calc(100vw + (var(--background-image-blur) * 2));
